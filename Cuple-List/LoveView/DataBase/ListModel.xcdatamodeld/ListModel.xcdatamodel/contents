@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="24512" systemVersion="25B78" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="AnniModel" representedClassName="AnniModel" isAbstract="YES" syncable="YES">
+        <attribute name="advanceDate" optional="YES" attributeType="String"/>
+        <attribute name="assignIndex" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="creationDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="creatorUUID" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="isNever" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="isReminder" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="isShared" optional="YES" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="YES"/>
+        <attribute name="repeatDate" optional="YES" attributeType="String"/>
+        <attribute name="targetDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="titleLabel" optional="YES" attributeType="String"/>
+        <attribute name="useraddImage" optional="YES" attributeType="Binary"/>
+        <attribute name="wishImage" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ListModel" representedClassName="ListModel" isAbstract="YES" syncable="YES">
+        <attribute name="assignIndex" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="creationDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="isAllDay" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="isCompleted" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="isReminderOn" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="notesLabel" optional="YES" attributeType="String"/>
+        <attribute name="points" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="taskDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="timeString" optional="YES" attributeType="String"/>
+        <attribute name="titleLabel" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="PointsModel" representedClassName="PointsModel" isAbstract="YES" syncable="YES">
+        <attribute name="creationDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="isShared" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="notesLabel" optional="YES" attributeType="String"/>
+        <attribute name="points" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="titleLabel" optional="YES" attributeType="String"/>
+        <attribute name="userImageData" optional="YES" attributeType="Binary"/>
+        <attribute name="wishImage" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="UserModel" representedClassName="UserModel" syncable="YES">
+        <attribute name="avatarImageURL" optional="YES" attributeType="String"/>
+        <attribute name="birthday" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="creationDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="deviceModel" optional="YES" attributeType="String"/>
+        <attribute name="gender" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="isInitiator" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="isInLinkedState" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String"/>
+        <attribute name="relationshipStartDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+</model>
